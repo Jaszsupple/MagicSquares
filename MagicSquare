@@ -8,7 +8,7 @@ public class MagicSquare {
 		int sum = 0;
 		int magicssquare [] [] = {{4,9,2}, {3,5,7}, {8,1,6}};
 
-
+		//Test code fot the magicsquare concept
 		for ( rows = 0; rows < 3; rows++) {
 			for(column= 0; column < 3; column++) {
 				System.out.print(magicssquare[rows][column] + "\t" );
@@ -29,6 +29,7 @@ public class MagicSquare {
 
 		}
 
+		//Conditional statement for outputing the right results
 		if (sum == 120) {
 			System.out.println("This is a magic Square");
 		} else System.out.println("This is not a magic Square");
